@@ -56,7 +56,7 @@ function ProductItem({ product }) {
           ) : (
             <Button
               onClick={handleAddToCart}
-              className="flex items-center gap-2 rounded-3xl border border-rose-400 bg-rose-50 px-3 py-2 text-xs hover:border-red hover:text-red sm:px-4 sm:py-2.5 sm:text-sm md:px-5 md:py-3 md:text-base"
+              className="flex items-center gap-1 rounded-3xl border border-rose-400 bg-rose-50 px-2 py-1 text-xs hover:border-red hover:text-red sm:gap-2 sm:px-3 sm:py-2 sm:text-sm md:px-4 md:py-2.5 md:text-base lg:px-5 lg:py-3"
             >
               <ShoppingCart className="h-3 w-3 text-red sm:h-4 sm:w-4 md:h-5 md:w-5" />
               <span>Add to cart</span>
